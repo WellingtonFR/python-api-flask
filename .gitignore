@@ -1,0 +1,39 @@
+# General ignores
+*.pyc
+*.pyo
+*.env
+__pycache__/
+.DS_Store
+node_modules/
+dist/
+build/
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backend (Flask API)
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/instance/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/venv/
+backend/*.sqlite3
+
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.turbo/

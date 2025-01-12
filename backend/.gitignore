@@ -1,0 +1,57 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.venv.bak/
+
+# Flask-specific files
+instance/
+*.db
+
+# Environment variables (keep your sensitive data out of version control)
+.env
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*
+Dockerfile.*
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python egg files
+*.egg
+*.egg-info
+dist/
+build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# SQLite database (if using SQLite)
+*.sqlite3
+
+# Coverage reports
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# VSCode settings (optional)
+.vscode/
